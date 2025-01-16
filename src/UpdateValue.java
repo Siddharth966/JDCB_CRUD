@@ -8,7 +8,7 @@ public class UpdateValue {
         System.out.println("Hello Siddharth !");
 
 
-        String city ="Prayagraj";
+        String city ="Allahabad";
         String email= "sidd98@gmail.com";
 
         Class.forName("com.mysql.cj.jdbc.Driver");
