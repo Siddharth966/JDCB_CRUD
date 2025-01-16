@@ -6,11 +6,11 @@ public class InsertValue {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello Siddharth !");
 
-        String name="Ramesh";
-        String email="ramesh67@gmail.com";
-        String pass= "ramesh123";
-        String gender="male";
-        String city="KarveNager";
+        String name="Aishwarya";
+        String email="aish67@gmail.com";
+        String pass= "aish123";
+        String gender="Female";
+        String city="Katraj";
 
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_student?useSSL=false","root","root");
